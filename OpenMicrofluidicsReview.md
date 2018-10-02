@@ -1,6 +1,8 @@
-# Draft, review article mauscript (comments and contributions welcome)
+# Draft, review article mauscript
 
-#openess of microfluidics research & developement as well as suggestions for improvements
+Comments and contributions welcome! Please enter them here on GItHub or contact me: tobias.wenzel@embl.de
+
+## Openess of microfluidics research & developement and ways forward
 
 Increasing openess can be acheived in many different ways, such as increased accessibility of techniques or results to a professional or general audience, greater ease of use, increased mobility of researchers of different seniority, discipines or ethnicity into the field.
 One aspect that enjoys recent popularity in microfluidic and bioprocess technologies is the "biohacker"or Do-It-Yourself (DIY) biology movement. The later includes self-made and low-cost research instrumentation.
