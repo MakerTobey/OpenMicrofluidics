@@ -1,4 +1,4 @@
-#Progress towards more open microfluidics research and developement
+# Draft mauscript outline of a review assessing the oness of microfluidics research & developement as well as suggestions for improvements
 
 Increasing openess can be acheived in many different ways, such as increased accessibility of techniques or results to a professional or general audience, greater ease of use, increased mobility of researchers of different seniority, discipines or ethnicity into the field.
 One aspect that enjoys recent popularity in microfluidic and bioprocess technologies is the "biohacker"or Do-It-Yourself (DIY) biology movement. The later includes self-made and low-cost research instrumentation.
