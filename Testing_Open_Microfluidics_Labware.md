@@ -38,16 +38,29 @@ None are konwn to us so far! Please let me know. Fast-responding cameras would b
 
 I believe that stroboscopic imaging has already been build by many labs. Who would be interested to publish the designs openly?
 Paper references of possible interest:
-https://pdfs.semanticscholar.org/63f0/b73d48380f3d5d3614e0fe12ae55adaeb1dd.pdf
 https://www.hindawi.com/journals/jamc/2009/198732/
-https://www.spiedigitallibrary.org/conference-proceedings-of-spie/5145/0000/Simultaneous-mapping-of-phase-and-amplitude-of-MEMS-vibrations-by/10.1117/12.500138.short?SSO=1
-https://www.osapublishing.org/boe/abstract.cfm?uri=boe-1-2-385
-https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0143547
 https://aapt.scitation.org/doi/abs/10.1119/1.4863916
 https://www.mdpi.com/2072-666X/8/12/351
 https://www.future-science.com/doi/abs/10.2144/000112220
 https://www.sciencedirect.com/science/article/pii/S0165027012003846
-https://pubs.acs.org/doi/abs/10.1021/ja074704l
+https://media.proquest.com/media/pq/classic/doc/4322030507/fmt/ai/rep/NPDF?_s=EUAbzVz%2B%2FEKGyiix9oguFSmtgAU%3D
+Maybe:
+https://pdfs.semanticscholar.org/63f0/b73d48380f3d5d3614e0fe12ae55adaeb1dd.pdf
 https://www.spiedigitallibrary.org/conference-proceedings-of-spie/5145/0000/Simultaneous-mapping-of-phase-and-amplitude-of-MEMS-vibrations-by/10.1117/12.500138.short?SSO=1
 https://scholar.google.de/scholar?hl=en&as_sdt=0%2C5&as_vis=1&q=stroboscopic%2Billumination%2Bmicroscope%2Barduino&btnG=
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0143547
+https://pubs.acs.org/doi/abs/10.1021/ja074704l
+
+Open Source imaging chips:
+https://wiki.apertus.org/index.php/Main_Page
+Open Source imaging software:
+https://www.osapublishing.org/boe/abstract.cfm?uri=boe-1-2-385
+OpenAPD:
+http://www.gaudi.ch/GaudiLabs/?page_id=718
+https://ieeexplore.ieee.org/document/5158737
+
+### Open ...other related
+
+OpenDrop
+http://www.gaudi.ch/GaudiLabs/?page_id=392
 
