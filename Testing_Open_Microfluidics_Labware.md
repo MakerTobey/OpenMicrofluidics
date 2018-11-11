@@ -10,8 +10,8 @@ http://www.appropedia.org/Lynch_open_source_syringe_pump_modifications
 
 ### Open pressure controll (alternative to syringe pumps)
 
-https://www.docubricks.com/viewer.jsp?id=6067044959053384704
-https://metafluidics.org/devices/32-channel-controller/
+My own project, to be extended and tested: https://www.docubricks.com/viewer.jsp?id=6067044959053384704
+A useful manifold for quake-style valves, to be tested soon: https://metafluidics.org/devices/32-channel-controller/
 
 ### Open digital microscopy
 
@@ -29,6 +29,7 @@ https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2002702
 
 ### Open Dropseq station
 
+After looking at the details of the project, this seems like a fantastic piece of hardware and documentation. We will definitely try to build it. Nice small and low-cost solutions for pressure controll.
 https://metafluidics.org/devices/minidrops/
 https://www.nature.com/articles/s41467-017-02659-x#Sec9
 
@@ -67,4 +68,5 @@ https://ieeexplore.ieee.org/document/5158737
 
 OpenDrop
 http://www.gaudi.ch/GaudiLabs/?page_id=392
-
+And Dropbot
+http://microfluidics.utoronto.ca/dropbot/
