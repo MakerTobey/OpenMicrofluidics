@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=miniDrops
+Comment=This desktop file opens the mDS_v21 gui
+Exec=sudo /usr/bin/python3 /home/pi/code/mDS_v21.py 
+Type=Application
+Encoding=UTF-8
+Terminal=fasle
+Categories=None;
+
+Icon=/home/pi/code/mDS_icon.png
