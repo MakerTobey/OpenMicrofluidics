@@ -66,7 +66,7 @@ https://www.osapublishing.org/boe/abstract.cfm?uri=boe-1-2-385
 FACS equivalent sorting of droplets for directed evolution and many other essays is a key method in microfluidics that only few labs master. One of the reasons is that few instructions are available (but they do exsist! See Christoph Merten in Nature Methods), and equipemnt is complex, propriatory and very expensive. A common work station for droplet sorting usually costs more than 100.000 Euro. Now, an open source version (no propriatory sorware and harware lock-in, modifiable, modular and extensible) comes within reach! These are the things needed:
 
 
-This requires a strong lightsource (laser, most commonly 488nm, collimated, small elliptical focal spot, low coherence to avoid speckles) to activate fluorescence. Usually a few thousand Euro per laser and some additional hundred Euro for the optics (not counting a professional microscope)
+This requires a strong lightsource (laser, most commonly 488nm {for Green Fluorescent Protein (GFP) and similar}, collimated, small elliptical focal spot, low coherence to avoid speckles) to activate fluorescence. Usually a few thousand Euro per laser and some additional hundred Euro for the optics (not counting a professional microscope).
 
 
 It requires a fast and very sensitive detector for the fluorescent signal. This is commonly a PMT (photomultiplier tube), but now there are cheaper and less-easy-to-break APDs (avalanche photodiode)s. Individually they should cost in the order of magnitude of a hundred Euro, but they need to be hosted on a controller, cooling, etc. unit with appropriate connector, which usually spikes the cost to thousands. However, now there is work on an open source APD controller:
