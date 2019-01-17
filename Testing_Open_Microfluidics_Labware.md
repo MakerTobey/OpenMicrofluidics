@@ -86,7 +86,7 @@ Red Pitaya https://www.redpitaya.com
 
 One newer projects to make FPGAs accessible, still requires advanced electronics or programming knowledge:
 
-http://www.clifford.at/icestorm/
+http://www.clifford.at/icestorm/ https://media.ccc.de/v/32c3-7139-a_free_and_open_source_verilog-to-bitstream_flow_for_ice40_fpgas
 
 https://hackaday.com/2018/12/13/icebreaker-the-open-source-development-board-for-fpgas/
 
