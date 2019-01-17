@@ -6,12 +6,17 @@ Any contribution and participation welcome! I am happy to connect and perhaps ev
 
 ### Open syringepump(s)
 http://www.appropedia.org/Open-source_syringe_pump
+We have built two, but will further upgrade and test.
+
 http://www.appropedia.org/Lynch_open_source_syringe_pump_modifications
+https://www.sciencedirect.com/science/article/pii/S2468067218300269
+
 
 ### Open pressure controll (alternative to syringe pumps)
 
 My own project, to be extended and tested: https://www.docubricks.com/viewer.jsp?id=6067044959053384704
 A useful manifold for quake-style valves, to be tested soon: https://metafluidics.org/devices/32-channel-controller/
+We are following up on thiese hardware pieces.
 
 ### Open digital microscopy
 
@@ -22,14 +27,15 @@ with objective:
 https://github.com/rwb27/openflexure_microscope
 with motorisation:
 https://github.com/rwb27/openflexure_nano_motor_controller
+We are currently waiting for the new release (large, with automation and objective) to build one.
 
 FlyPi:
 https://open-labware.net/projects/flypi/
 https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2002702
 
-### Open Dropseq station
+### Open Dropseq station and Open Digital PCR
 
-After looking at the details of the project, this seems like a fantastic piece of hardware and documentation. We will definitely try to build it. Nice small and low-cost solutions for pressure controll.
+After looking at the details of the project, this seems like a fantastic piece of hardware and documentation. We will definitely try to build it. Nice small and low-cost solutions for pressure controll. Parts are being purchased at the moment. Please look into the respective sub-repository.
 https://metafluidics.org/devices/minidrops/
 https://www.nature.com/articles/s41467-017-02659-x#Sec9
 
@@ -60,11 +66,40 @@ https://wiki.apertus.org/index.php/Main_Page
 Open Source imaging software:
 https://www.osapublishing.org/boe/abstract.cfm?uri=boe-1-2-385
 
+
+### Open Fluorescence Activated Droplet Sorting
+
+FACS equivalent sorting of droplets for directed evolution and many other essays is a key method in microfluidics that only few labs master. One of the reasons is that few instructions are available (but they do exsist! See Christoph Merten in Nature Methods), and equipemnt is complex, propriatory and very expensive. A common work station for droplet sorting usually costs more than 100.000 Euro. Now, an open source version (no propriatory sorware and harware lock-in, modifiable, modular and extensible) comes within reach! These are the things needed:
+
+
+This requires a strong lightsource (laser, most commonly 488nm {for Green Fluorescent Protein (GFP) and similar}, collimated, small elliptical focal spot, low coherence to avoid speckles) to activate fluorescence. Usually a few thousand Euro per laser and some additional hundred Euro for the optics (not counting a professional microscope).
+
+
+It requires a fast and very sensitive detector for the fluorescent signal. This is commonly a PMT (photomultiplier tube), but now there are cheaper and less-easy-to-break APDs (avalanche photodiode)s. Individually they should cost in the order of magnitude of a hundred Euro, but they need to be hosted on a controller, cooling, etc. unit with appropriate connector, which usually spikes the cost to thousands. However, now there is work on an open source APD controller:
 OpenAPD:
+
 http://www.gaudi.ch/GaudiLabs/?page_id=718
+
 https://ieeexplore.ieee.org/document/5158737
 
-### Open ...other related
+
+And then there is a need for a very fast real-time logical processor chip, which is usually achieved by programming an FPGA chip. This chip will read the signal and make a decision whether or not to activate the droplet sorter. (For example: Positive signal is coming in, intensity and duration (width) is in the right range and there was no other signal too shortly before, so OK, activate the amplifier trigger for the sorting electrode.) FPGAs are usually not exacly user friendly as they are programmed in a bottom-level hardware language. Easy-to-use systems (with integrated top level languages for programming and common measurement-tech interfaces) usually some in a propriatory environment and are very expensive. However, there has been a lot of activity in the respective open source landscape recently.
+
+Medium cost, established for science measurements:
+
+Red Pitaya https://www.redpitaya.com This has been purchased for testing.
+
+
+One newer projects to make FPGAs accessible, still requires advanced electronics or programming knowledge:
+
+http://www.clifford.at/icestorm/ https://media.ccc.de/v/32c3-7139-a_free_and_open_source_verilog-to-bitstream_flow_for_ice40_fpgas
+
+https://hackaday.com/2018/12/13/icebreaker-the-open-source-development-board-for-fpgas/
+
+http://papilio.cc (more light weight)
+
+
+### Open digital microfluidics ... and other related
 
 OpenDrop
 http://www.gaudi.ch/GaudiLabs/?page_id=392
