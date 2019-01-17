@@ -6,12 +6,17 @@ Any contribution and participation welcome! I am happy to connect and perhaps ev
 
 ### Open syringepump(s)
 http://www.appropedia.org/Open-source_syringe_pump
+We have built two, but will further upgrade and test.
+
 http://www.appropedia.org/Lynch_open_source_syringe_pump_modifications
+https://www.sciencedirect.com/science/article/pii/S2468067218300269
+
 
 ### Open pressure controll (alternative to syringe pumps)
 
 My own project, to be extended and tested: https://www.docubricks.com/viewer.jsp?id=6067044959053384704
 A useful manifold for quake-style valves, to be tested soon: https://metafluidics.org/devices/32-channel-controller/
+We are following up on thiese hardware pieces.
 
 ### Open digital microscopy
 
@@ -22,6 +27,7 @@ with objective:
 https://github.com/rwb27/openflexure_microscope
 with motorisation:
 https://github.com/rwb27/openflexure_nano_motor_controller
+We are currently waiting for the new release (large, with automation and objective) to build one.
 
 FlyPi:
 https://open-labware.net/projects/flypi/
@@ -29,7 +35,7 @@ https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2002702
 
 ### Open Dropseq station and Open Digital PCR
 
-After looking at the details of the project, this seems like a fantastic piece of hardware and documentation. We will definitely try to build it. Nice small and low-cost solutions for pressure controll.
+After looking at the details of the project, this seems like a fantastic piece of hardware and documentation. We will definitely try to build it. Nice small and low-cost solutions for pressure controll. Parts are being purchased at the moment. Please look into the respective sub-repository.
 https://metafluidics.org/devices/minidrops/
 https://www.nature.com/articles/s41467-017-02659-x#Sec9
 
@@ -81,7 +87,7 @@ And then there is a need for a very fast real-time logical processor chip, which
 
 Medium cost, established for science measurements:
 
-Red Pitaya https://www.redpitaya.com
+Red Pitaya https://www.redpitaya.com This has been purchased for testing.
 
 
 One newer projects to make FPGAs accessible, still requires advanced electronics or programming knowledge:
