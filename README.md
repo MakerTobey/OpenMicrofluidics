@@ -34,15 +34,16 @@ In particular we probe
 * open reagents 
 
 
-# Free and Open Source Hardware resources of interest for testing and further development
+# Free and Open Source Hardware resources of interest for testing and further development - selected promising resources
 
 Any contribution and participation welcome! I am happy to connect and perhaps even help with resources, parts and potential parts-funding! Comment here, via issues, or email me.
 
-## Selected promising resources
-
 ## Open Dropseq station and Open Digital PCR
 
-After looking at the details of the project, this seems like a fantastic piece of hardware and documentation. We will definitely try to build it and have already ordered all parts. Nice small and low-cost solutions for pressure controll. Parts are being purchased at the moment. Please look into the respective sub-repository: https://github.com/MakerTobey/OpenMicrofluidics/tree/master/Minidrop%20build%20and%20test
+After looking at the details of the project, this seems like a fantastic piece of hardware and documentation. We will definitely try to build it and have already ordered all parts. Nice small and low-cost solutions for pressure controll. Parts are being purchased at the moment. Please look into the respective sub-repository: 
+
+https://github.com/MakerTobey/OpenMicrofluidics/tree/master/Minidrop%20build%20and%20test
+
 https://metafluidics.org/devices/minidrops/
 https://www.nature.com/articles/s41467-017-02659-x#Sec9
 
@@ -81,6 +82,7 @@ http://papilio.cc (more light weight)
 ## Open microfluidics pressure control
 
 ### Open syringepump(s)
+
 http://www.appropedia.org/Open-source_syringe_pump
 We have built two, but will further upgrade and test.
 
@@ -101,6 +103,7 @@ In this project and with colleagues, we are following up on thiese hardware piec
 
 OpenDrop
 http://www.gaudi.ch/GaudiLabs/?page_id=392
+
 And Dropbot
 http://microfluidics.utoronto.ca/dropbot/
 
