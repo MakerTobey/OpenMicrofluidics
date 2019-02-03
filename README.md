@@ -49,6 +49,8 @@ https://www.nature.com/articles/s41467-017-02659-x#Sec9
 
 ### Open Fluorescence Activated Droplet Sorting
 
+This is an active contsturction project! For files and progress, please look into the respective folder in this repository: https://github.com/MakerTobey/OpenMicrofluidics/tree/master/Open%20FADS
+
 FACS (Fluorescence Activated Cell Sorting) equivalent sorting of droplets for directed evolution and many other essays is a key method in microfluidics that only few labs master. One of the reasons is that few instructions are available (but they do exsist! See Christoph Merten in Nature Methods), and equipemnt is complex, propriatory and very expensive. A common work station for droplet sorting usually costs ca. 100.000 Euro. Now, an open source version (no propriatory sorware and harware lock-in, modifiable, modular and extensible) comes within reach! These are the things needed:
 
 
@@ -91,7 +93,11 @@ https://www.sciencedirect.com/science/article/pii/S2468067218300269
 
 ### Open pressure controll
 
-My own project to build an ardunino based 2-channel pressure controll (pressure derived from a compressor), to be extended and tested: https://www.docubricks.com/viewer.jsp?id=6067044959053384704
+We are building and testing some of this hardware! Please look into the respective project subfolder: https://github.com/MakerTobey/OpenMicrofluidics/tree/master/pressure%20control%20bild%20and%20test
+
+My own project to build an ardunino based 2-channel pressure controll (pressure derived from a compressor), to be extended and tested: https://www.docubricks.com/viewer.jsp?id=6067044959053384704 Also explore our seperate GitHub repository: https://github.com/MakerTobey/uFluid
+
+This project looks similar and deserves further attention: https://hackaday.io/project/148274-electronic-pressure-regulator, https://github.com/watsaig/ufcs-pc
 
 A useful manifold for quake-style valves, already build and soon to be tested: https://github.com/GNHua/valve-control
 
