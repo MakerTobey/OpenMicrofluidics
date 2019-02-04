@@ -7,9 +7,9 @@ Talk at EMBL unseminar series (October)
 Holiday (December)
 Zwischenbericht (early January)
 Präsenzworkshop 11./12.02.2019
-Doathon in Heidelberg (ca. February)
+Doathon in Heidelberg (ca. March)
 Holiday (March)
-Finish review paper (May)
+Finish Hardware project(s) (May)
 
 # Meine Ideen / Vorhaben
 Andere Forscher zum öffnen motivieren (offene publikationen)
