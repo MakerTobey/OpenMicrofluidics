@@ -6,6 +6,7 @@ FACS (Fluorescence Activated Cell Sorting) equivalent sorting of droplets for di
 This requires a strong lightsource (laser, most commonly 488nm {for Green Fluorescent Protein (GFP), red RFP and similar}, collimated, small elliptical focal spot, low coherence to avoid speckles) to activate fluorescence. Usually a few thousand Euro per laser and some additional hundred Euro for the optics (not counting a professional microscope). Here we explore the use of much cheaper and more accessible high-power LED solutions, based the illumination used here: https://pubs.acs.org/doi/10.1021/acs.analchem.7b04689
 
 We purchased the folloing from Luxeonstar.com (February 2019):
+
 Part Nr | Description | Price
 --- | --- | ---
 SP-01-B6 | LED: Blue (470nm) Rebel LED (LXML-PB02) on a SinkPAD-II 20mm Star Base - 74lm @ 700mA  | 13.08 $US
@@ -31,13 +32,14 @@ And then there is a need for a very fast real-time logical processor chip, which
 Medium cost, established for science measurements:
 
 Red Pitaya https://www.redpitaya.com This has been now purchased for testing from Reichelt Electronik (reichelt.de, January 2019):
+
 Part Nr | Description | Price
 --- | --- | ---
 STEMLAB 14 UK | we bought this complete kit: USB-Messlabor STEMlab 125-14 Ultimate Kit, 2 Kanäle, 50 MHz, USB | 624,00 EUR 
 STEMLAB 14 SK | But this unit would have been sufficient: USB-Messlabor STEMlab 125-14 Starter Kit, 2 Kanäle, 50 MHz, USB | 308.00 EUR
 | shipping | 5.60 EUR
 
-One newer projects to make FPGAs accessible, still requires advanced electronics or programming knowledge:
+Newer projects to make FPGAs accessible, still require advanced electronics or programming knowledge:
 
 http://www.clifford.at/icestorm/ https://media.ccc.de/v/32c3-7139-a_free_and_open_source_verilog-to-bitstream_flow_for_ice40_fpgas
 
