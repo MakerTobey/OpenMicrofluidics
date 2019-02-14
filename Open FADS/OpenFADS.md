@@ -12,11 +12,10 @@ Part Nr | Description | Price
 SP-01-B6 | LED: Blue (470nm) Rebel LED (LXML-PB02) on a SinkPAD-II 20mm Star Base - 74lm @ 700mA  | 13.08 $US
 10193 | Carclo 8.7° 20 mm Circular Beam Optic - No Holder | 2.60 $US
 10235 | Carclo 20 mm Black Round Optic Holder - Flat Bottom | 0.70 $US
-LXT-S-12 | Pre-Cut, Thermal Adhesive Tape for 20 mm Star LED Assemblies
-- (12 Piece Sheet)| 7.49 $US
+LXT-S-12 | Pre-Cut, Thermal Adhesive Tape for 20 mm Star LED Assemblies - (12 Piece Sheet)| 7.49 $US
 N30-10B | 30 mm Square x 10 mm High Alpha Heat Sink - 14.0 °C/W 10193 Carclo 8.7° 20 mm Circular Beam Optic - No Holder | 5.72 $US
 LP-01 | Assembly Press for Mounting Single Rebel LED Assemblies to a Heatsink | 0.00 $US
-| Shipping to Europe | 21.01 $USD
+shipping | Shipping to Europe | 21.01 $USD
 
 ## fast and sensitive fluorescence detection
 It requires a fast and very sensitive detector for the fluorescent signal. This is commonly a PMT (photomultiplier tube), but now there are cheaper and less-easy-to-break APDs (avalanche photodiode)s. Individually they should cost in the order of magnitude of a hundred Euro, but they need to be hosted on a controller, cooling, etc. unit with appropriate connector, which usually spikes the cost to thousands. However, now there is work on an open source APD controller:
@@ -37,7 +36,7 @@ Part Nr | Description | Price
 --- | --- | ---
 STEMLAB 14 UK | we bought this complete kit: USB-Messlabor STEMlab 125-14 Ultimate Kit, 2 Kanäle, 50 MHz, USB | 624,00 EUR 
 STEMLAB 14 SK | But this unit would have been sufficient: USB-Messlabor STEMlab 125-14 Starter Kit, 2 Kanäle, 50 MHz, USB | 308.00 EUR
-| shipping | 5.60 EUR
+shipping | shipping | 5.60 EUR
 
 Newer projects to make FPGAs accessible, still require advanced electronics or programming knowledge:
 
