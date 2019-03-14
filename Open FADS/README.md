@@ -19,15 +19,18 @@ shipping | Shipping to Europe | 21.01 $USD
 
 ## optical filters
 
-The filters from Comar (UK) seem to have a good price range. I ordered the following filters to integrate into the [Open Flexturescope](https://github.com/rwb27/openflexure_microscope/issues/43)
+The filters from [Comar Optics (UK)](https://www.comaroptics.com/components/filters) seem to have a good price range. I ordered the following filters to integrate into the [Open Flexturescope](https://github.com/rwb27/openflexure_microscope/issues/43)
 
 Part Nr | Description | Price in GBP
 --- | --- | ---
-XX | Interference filter (band filter) for 488nm | ca. £60
+488 IH 12 (?) | Interference filter (band width standard, 10nm BW) for 488nm | £73.17
 585 AY 25 | Acrylic colour filter, 585nm longpass, 25mm diameter x 1mm | £9.24
 495 IK 116 | Dichroic filter, short pass, 490nm, 25 x 16 x 1.1mm | £21.34
 525 IB 25 | Dichroic filter, band pass, 500/550nm, dia 25mm | £26.07
 40 BA 00 | Plate beamsplitter, standard, visible 50%, 40mm diameter x 3mm | £37.07
+
+Shipping with Comar Priority Service to Germany - £24.65
+
 
 ## fast and sensitive fluorescence detection
 It requires a fast and very sensitive detector for the fluorescent signal. This is commonly a PMT (photomultiplier tube), but now there are cheaper and less-easy-to-break APDs (avalanche photodiode)s. Individually they should cost in the order of magnitude of a hundred Euro, but they need to be hosted on a controller, cooling, etc. unit with appropriate connector, which usually spikes the cost to thousands. However, now there is work on an open source APD controller:
