@@ -19,7 +19,7 @@ shipping | Shipping to Europe | 21.01 $USD
 
 ## optical filters
 
-The filters from [Comar Optics (UK)](https://www.comaroptics.com/components/filters) seem to have a good price range. I ordered the following filters to integrate into the [Open Flexturescope](https://github.com/rwb27/openflexure_microscope/issues/43)
+The filters from [Comar Optics (UK)](https://www.comaroptics.com/components/filters) seem to have a good price range. I ordered the following filters to integrate into the [Open Flexturescope](https://github.com/rwb27/openflexure_microscope/issues/43). I ordered the parts in March 2019.
 
 Part Nr | Description | Price in GBP
 --- | --- | ---
