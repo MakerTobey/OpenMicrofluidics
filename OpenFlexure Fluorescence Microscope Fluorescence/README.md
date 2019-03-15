@@ -5,5 +5,5 @@ In this repository, the design is beeing modified for fluorescence application a
 The official [discussion on a fluorescence version of the OpenFlexure Microscope takes place here](https://github.com/rwb27/openflexure_microscope/issues/43).
 Relevant [illumination parts (Kohler illumination, condenser) are discussed here](https://github.com/rwb27/openflexure_microscope/issues/77).
 
-The key aspects of requirements and actions are beeing discussed on the [Open FADS part of this repository](https://github.com/MakerTobey/OpenMicrofluidics/tree/master/Open%20Fluorescence%20Activated%20Droplet%20Sorting%20(FADS)).
+The key aspects of this build and modifications are beeing discussed on the [Open FADS part of this repository](https://github.com/MakerTobey/OpenMicrofluidics/tree/master/Open%20Fluorescence%20Activated%20Droplet%20Sorting%20(FADS)).
 
