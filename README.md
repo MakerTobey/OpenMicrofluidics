@@ -49,7 +49,7 @@ https://www.nature.com/articles/s41467-017-02659-x#Sec9
 
 ### Open Fluorescence Activated Droplet Sorting
 
-This is an active contsturction project! For files and progress, please look into the respective folder in this repository: https://github.com/MakerTobey/OpenMicrofluidics/tree/master/Open%20FADS
+This is an active contsturction project! For files and progress, please look into the respective folder in this repository: https://github.com/MakerTobey/OpenMicrofluidics/tree/master/Open%20Fluorescence%20Activated%20Droplet%20Sorting%20(FADS)
 
 FACS (Fluorescence Activated Cell Sorting) equivalent sorting of droplets for directed evolution and many other essays is a key method in microfluidics that only few labs master. One of the reasons is that few instructions are available (but they do exsist! See Christoph Merten in Nature Methods), and equipemnt is complex, propriatory and very expensive. A common work station for droplet sorting usually costs ca. 100.000 Euro. Now, an open source version (no propriatory sorware and harware lock-in, modifiable, modular and extensible) comes within reach!
 
