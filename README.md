@@ -63,9 +63,9 @@ We have built two, but will further upgrade and test.
 http://www.appropedia.org/Lynch_open_source_syringe_pump_modifications
 https://www.sciencedirect.com/science/article/pii/S2468067218300269
 
-### Open pressure controll
+We are building and testing some of this hardware! Please look into the respective project subfolder: https://github.com/MakerTobey/OpenMicrofluidics/tree/master/pressure%20control%20build%20and%20test
 
-We are building and testing some of this hardware! Please look into the respective project subfolder: https://github.com/MakerTobey/OpenMicrofluidics/tree/master/pressure%20control%20bild%20and%20test
+### Open pressure controll
 
 My own project to build an ardunino based 2-channel pressure controll (pressure derived from a compressor), to be extended and tested: https://www.docubricks.com/viewer.jsp?id=6067044959053384704 Also explore our seperate GitHub repository: https://github.com/MakerTobey/uFluid
 
@@ -113,7 +113,7 @@ https://aapt.scitation.org/doi/abs/10.1119/1.4863916
 https://www.mdpi.com/2072-666X/8/12/351
 https://www.future-science.com/doi/abs/10.2144/000112220
 https://www.sciencedirect.com/science/article/pii/S0165027012003846
-https://media.proquest.com/media/pq/classic/doc/4322030507/fmt/ai/rep/NPDF?_s=EUAbzVz%2B%2FEKGyiix9oguFSmtgAU%3D
+-> this link is broken at the moment! What content was here? https://media.proquest.com/media/pq/classic/doc/4322030507/fmt/ai/rep/NPDF?_s=EUAbzVz%2B%2FEKGyiix9oguFSmtgAU%3D
 
 Maybe:
 https://pdfs.semanticscholar.org/63f0/b73d48380f3d5d3614e0fe12ae55adaeb1dd.pdf
