@@ -49,7 +49,7 @@ https://www.nature.com/articles/s41467-017-02659-x#Sec9
 
 ### Open Fluorescence Activated Droplet Sorting
 
-This is an active contsturction project! For files and progress, please look into the respective folder in this repository: https://github.com/MakerTobey/OpenMicrofluidics/tree/master/Open%20FADS
+This is an active contsturction project! For files and progress, please look into the respective folder in this repository: https://github.com/MakerTobey/OpenMicrofluidics/tree/master/Open%20Fluorescence%20Activated%20Droplet%20Sorting%20(FADS)
 
 FACS (Fluorescence Activated Cell Sorting) equivalent sorting of droplets for directed evolution and many other essays is a key method in microfluidics that only few labs master. One of the reasons is that few instructions are available (but they do exsist! See Christoph Merten in Nature Methods), and equipemnt is complex, propriatory and very expensive. A common work station for droplet sorting usually costs ca. 100.000 Euro. Now, an open source version (no propriatory sorware and harware lock-in, modifiable, modular and extensible) comes within reach!
 
@@ -63,9 +63,9 @@ We have built two, but will further upgrade and test.
 http://www.appropedia.org/Lynch_open_source_syringe_pump_modifications
 https://www.sciencedirect.com/science/article/pii/S2468067218300269
 
-### Open pressure controll
+We are building and testing some of this hardware! Please look into the respective project subfolder: https://github.com/MakerTobey/OpenMicrofluidics/tree/master/pressure%20control%20build%20and%20test
 
-We are building and testing some of this hardware! Please look into the respective project subfolder: https://github.com/MakerTobey/OpenMicrofluidics/tree/master/pressure%20control%20bild%20and%20test
+### Open pressure controll
 
 My own project to build an ardunino based 2-channel pressure controll (pressure derived from a compressor), to be extended and tested: https://www.docubricks.com/viewer.jsp?id=6067044959053384704 Also explore our seperate GitHub repository: https://github.com/MakerTobey/uFluid
 
@@ -113,7 +113,7 @@ https://aapt.scitation.org/doi/abs/10.1119/1.4863916
 https://www.mdpi.com/2072-666X/8/12/351
 https://www.future-science.com/doi/abs/10.2144/000112220
 https://www.sciencedirect.com/science/article/pii/S0165027012003846
-https://media.proquest.com/media/pq/classic/doc/4322030507/fmt/ai/rep/NPDF?_s=EUAbzVz%2B%2FEKGyiix9oguFSmtgAU%3D
+This link is broken at the moment! What content was here?  -> https://media.proquest.com/media/pq/classic/doc/4322030507/fmt/ai/rep/NPDF?_s=EUAbzVz%2B%2FEKGyiix9oguFSmtgAU%3D
 
 Maybe:
 https://pdfs.semanticscholar.org/63f0/b73d48380f3d5d3614e0fe12ae55adaeb1dd.pdf
