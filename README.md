@@ -1,4 +1,4 @@
-# Open Source Microfluidics Hardware
+# Free and Open Source Microfluidics Research Hardware
 
 This GitHub repository is an in-progress collection of Open Source Hardware instrumentation for microfluidics and ultra-high troughput lifescience experimentation research. This is a community driven effort and **you are invited to contribute thoughts, content, comments and help testing the instrumentation**! 
 
