@@ -1,0 +1,8 @@
+Find attached the code for controlling the syringe pump. Also diagrams and wiring can be found here:
+
+A4988 Stepper Motor Driver Module With Heat Sink #02258664
+http://www.geeetech.com/wiki/index.php/StepStick_A4988_Stepper_Driver_Module
+
+
+Arduino Uno
+Instructions adapted from : http://howtomechatronics.com/tutorials/arduino/how-to-control-stepper-motor-with-a4988-driver-and-arduino/
