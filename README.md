@@ -2,7 +2,7 @@
 
 This GitHub repository is an in-progress collection of Open Source Hardware instrumentation for microfluidics and ultra-high troughput lifescience experimentation research. This is a community driven effort and **you are invited to contribute thoughts, content, comments and help testing the instrumentation**! 
 
-This projekt started as part of my current Fellowship Freies Wissen (translates to Open Knowledge), here is the [project description on the corresponding Wikiversity page](https://de.wikiversity.org/wiki/Wikiversity:Fellow-Programm_Freies_Wissen/Einreichungen/Open_labware_for_better_life_science). And is beeing further developed as part of my reseach efforts as well as in my free time, togehter with various project partners.
+This projekt started as part of my current Fellowship Freies Wissen (translates to Open Knowledge), here is the [project description on the corresponding Wikiversity page](https://de.wikiversity.org/wiki/Wikiversity:Fellow-Programm_Freies_Wissen/Einreichungen/Open_labware_for_better_life_science). And is beeing further developed as part of my reseach efforts as well as in my free time, togehter with various project partners, such advice and help from Daniel Mietchen, Patrick Hasenfeld, Nicolas Peschke, Biotop Community Heidelberg, the EMBL Workshops (especially Christian Arnold and Alejandro Gil Ortiz), and others.
 
 ## The following two aims are addressed in this repository:
 
