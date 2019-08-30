@@ -66,15 +66,14 @@ http://papilio.cc (more light weight)
 
 Here is an estimate of the specs that are beeing used for high-end droplet sorting:
 
-A voltage of ca. 0.1-3kV (at quasi zero Ampere current) is applied to the electrodes on chip. This depends quite a lot on the electrode geometry and the forces required.
+A voltage of ca. 0.1-3kV (at quasi zero Ampere current) is applied to the electrodes on chip. This depends quite a lot on the electrode geometry and the forces required. Using longer electrodes (Rails etc.) Sub 1kV voltages are sufficient (see "Rational design of a high-throughput droplet sorter" Lab on a Chip 2019, DOI: 10.1039/c9lc00149b https://pubs.rsc.org/en/content/articlelanding/2019/LC/C9LC00149B#!divAbstract)
 
-0.4-3 milisecond (ms) pulses sent to the electrodes on chip (depending on droplet size, speed and electrode shape). This needs to happen with usually no more than a 100us (fast!) delay after detecting the fluorescent signal, as the drops move fast.
+0.4-3 milisecond (ms) pulses sent to the electrodes on chip (depending on droplet size, speed and electrode shape). This needs to happen with usually no more than a 100us delay after detecting the fluorescent signal, as the drops move fast.
 
-The pulse itself is then still alternating current (AC), with a frequency of ca. 100-40kHz frequency (generalisation: the higher the frequency in these limits, the stronger is the force on the droplet).
+The pulse itself is then still alternating current (AC), with a frequency of ca. 0.1-40kHz frequency (generalisation: the higher the frequency in these limits, the stronger is the force on the droplet). Starting value here: 20kHz or higher. *Question: How can this value be smaller or equal the droplet sorting rate?*
 
 Apparently [square wave (DC-DC) pulses are more efficient for dielectrophoresis than AC waves](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=2ahUKEwiIjt2c94HhAhWHZ1AKHfeSCYYQFjABegQIABAC&url=https%3A%2F%2Ftigerprints.clemson.edu%2Fcgi%2Fviewcontent.cgi%3Farticle%3D1016%26context%3Dmecheng_pubs&usg=AOvVaw1J-VG6QFMguafNriVgkh64). This is also what most people in the field (who mention it) seem to use if they can. Generating these signals is not so hard - there are many decent small, open and cheap function generators. This can also easily be done on the same FPGA computer that is already used for data processing.
 
 However, amplification of these pulses is hard and there seem to be only two equipment providers (Trek and Matsusada). The amplifiers are expensive (ca. 5-10 kEuro), large, heavy and energy consuming.
 
 However, since we only need a square wafe signal with stable levels, there seems to be an opportunity to build a switch chip using with voltage power converter units (e.g. APS models from ISEG https://iseg-hv.com/en/products/dc-dc) and voltage tollerant MOSFETs (e.g. https://de.rs-online.com/web/p/mosfet/8016794/).
-
