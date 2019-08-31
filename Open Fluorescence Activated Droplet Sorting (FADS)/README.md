@@ -38,7 +38,12 @@ OpenAPD:
 
 http://www.gaudi.ch/GaudiLabs/?page_id=718
 
+Some circuits (e.g. amplification) might be useful from the CosmicPi projekt:
+
+https://github.com/CosmicPi/CosmicPiV1.6PCB
+
 https://ieeexplore.ieee.org/document/5158737
+
 
 ## fast data processing
 And then there is a need for a very fast real-time logical processor chip, which is usually achieved by programming an FPGA chip. This chip will read the signal and make a decision whether or not to activate the droplet sorter. (For example: Positive signal is coming in, intensity and duration (width) is in the right range and there was no other signal too shortly before, so OK, activate the amplifier trigger for the sorting electrode.) FPGAs are usually not exacly user friendly as they are programmed in a bottom-level hardware language. Easy-to-use systems (with integrated top level languages for programming and common measurement-tech interfaces) usually some in a propriatory environment and are very expensive. However, there has been a lot of activity in the respective open source landscape recently.
