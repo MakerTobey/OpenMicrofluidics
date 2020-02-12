@@ -23,7 +23,6 @@ The filters from [Comar Optics (UK)](https://www.comaroptics.com/components/filt
 
 Part Nr | Description | Price in GBP
 --- | --- | ---
-488 IH 12 (?) | Interference filter (band width standard, 10nm BW) for 488nm | £73.17
 585 AY 25 | Acrylic colour filter, 585nm longpass, 25mm diameter x 1mm | £9.24
 495 IK 116 | Dichroic filter, short pass, 490nm, 25 x 16 x 1.1mm | £21.34
 525 IB 25 | Dichroic filter, band pass, 500/550nm, dia 25mm | £26.07
