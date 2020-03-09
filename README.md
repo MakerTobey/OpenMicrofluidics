@@ -2,13 +2,21 @@
 
 This GitHub repository is an in-progress collection of Open Source Hardware instrumentation for microfluidics and ultra-high troughput lifescience experimentation research. This is a community driven effort and **you are invited to contribute thoughts, content, comments and help testing the instrumentation**! 
 
-This projekt started as part of my current Fellowship Freies Wissen (translates to Open Knowledge), here is the [project description on the corresponding Wikiversity page](https://de.wikiversity.org/wiki/Wikiversity:Fellow-Programm_Freies_Wissen/Einreichungen/Open_labware_for_better_life_science). And is beeing further developed as part of my reseach efforts as well as in my free time, togehter with various project partners, such advice and help from Daniel Mietchen, Patrick Hasenfeld, Nicolas Peschke, Biotop Community Heidelberg, the EMBL Workshops (especially Christian Arnold and Alejandro Gil Ortiz), and others.
+This projekt started as part of my Fellowship Freies Wissen (translates to Open Knowledge)2018-2019, here is the [project description on the corresponding Wikiversity page](https://de.wikiversity.org/wiki/Wikiversity:Fellow-Programm_Freies_Wissen/Einreichungen/Open_labware_for_better_life_science). And is beeing further developed as part of my reseach efforts as well as in my free time, togehter with various project partners, such advice and help from Daniel Mietchen, Patrick Hasenfeld, Nicolas Peschke, Biotop Community Heidelberg, the EMBL Workshops (especially Christian Arnold and Alejandro Gil Ortiz), and others.
 
-## The following two aims are addressed in this repository:
+# Currently, area of active works are:
+A complete, new, modular workstation for microfluidic droplet generation in this repository (online updates overdue):https://github.com/MakerTobey/open-microfluidics-workstation
 
-* A review outline that collects information on the openess of the research field, its instrumentation and reagents. **Please comment by submitting issues on GitHub or contact me directly** if you want to be part of the more concentrated writing effort: Tobias.Wenzel /at/ embl.de
+FPGA automation for droplet sorting in this repository: 
+https://github.com/MakerTobey/Open_FPGA_control_for_FADS
 
-* A list of microfluidics relevant Open Source Harwdare instrumentation, connected to the practical aim of testing the documentations by reading them carefully, by building the instrumentation in some cases (remotely and Heidelberg based workshop in early 2019) and further by testing, comparing and calibrating the equipement. **Everyone is welcome to contribute**.  Please contact me directly (Tobias.Wenzel /at/ embl.de) if you need financial help with hardware parts in oder to test the documentations and redocument them on [DocuBricks](docurbricks.com) to create more accessible, open hardware standard documentations.
+And Open Flexure Microscope based Fluorescence microscopy in the sub-directories of this repository (the prototype already exsists, updates online soon): https://github.com/MakerTobey/OpenMicrofluidics/tree/master/Open%20Fluorescence%20Activated%20Droplet%20Sorting%20(FADS)
+https://github.com/MakerTobey/OpenMicrofluidics/tree/master/OpenFlexure%20Fluorescence%20Microscope%20Fluorescence
+
+
+## The following aim is addressed in this repository:
+
+This is a list of microfluidics relevant Open Source Harwdare instrumentation, connected to the practical aim of testing the documentations by reading them carefully, by building the instrumentation in some cases (remotely and Heidelberg based workshop in early 2019) and further by testing, comparing and calibrating the equipement. **Everyone is welcome to contribute**.  Please contact me directly (Tobias.Wenzel /at/ embl.de) if you need financial help with hardware parts in oder to test the documentations and redocument them on [DocuBricks](docurbricks.com) to create more accessible, open hardware standard documentations.
 
 ### Happy contributing!
 
