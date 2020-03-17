@@ -19,16 +19,22 @@ shipping | Shipping to Europe | 21.01 $USD
 
 ## optical filters
 
-The filters from [Comar Optics (UK)](https://www.comaroptics.com/components/filters) seem to have a good price range. I ordered the following filters to integrate into the [Open Flexturescope](https://github.com/rwb27/openflexure_microscope/issues/43). I ordered the parts in March 2019.
+The filters from [Comar Optics (UK)](https://www.comaroptics.com/components/filters) seem to have a good price range. I ordered the following filters to integrate into the [Open Flexturescope](https://github.com/rwb27/openflexure_microscope/issues/43). I ordered the parts in March 2019 and more January 2020.
 
 Part Nr | Description | Price in GBP
 --- | --- | ---
+495 IK 116 | (Excitation filter, Shortpass 495) Dichroic filter, 25 x 16 x 1.1mm | £21.34
+550 IY 125 | (Dichroic beam splitter, Longpass 506) Dichroic filter, 50 x 50 x 1.1mm | £47.19
+510 IY 50 | (Emission filter, Longpass 519) Dichroic filter, 50 x 50 x 1.1mm | £47.19
+--- | --- | ---
+525 IB 25 | Dichroic filter, band pass, 500/550nm, dia 25mm x 1mm | £26.07
 585 AY 25 | Acrylic colour filter, 585nm longpass, 25mm diameter x 1mm | £9.24
-495 IK 116 | Dichroic filter, short pass, 490nm, 25 x 16 x 1.1mm | £21.34
-525 IB 25 | Dichroic filter, band pass, 500/550nm, dia 25mm | £26.07
-40 BA 00 | Plate beamsplitter, standard, visible 50%, 40mm diameter x 3mm | £37.07
+635 IY 125 | Dichroic filter, long pass, 635nm, 40 x 25 x 1.1mm | £38.24
+40 BA 00 | Plate beamsplitter, standard, visible 50%, 40mm diameter x 3mm(thick!) | £37.07
 
 Shipping with Comar Priority Service to Germany - £24.65
+
+The first three filters form a GFP, Fluorescine etc. standard fluorescence set. The later filters can extend the stack to Propidium Iodite (PI) filtering in the yellow fraction of the spectrum.
 
 
 ## fast and sensitive fluorescence detection
