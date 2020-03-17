@@ -19,17 +19,22 @@ shipping | Shipping to Europe | 21.01 $USD
 
 ## optical filters
 
-The filters from [Comar Optics (UK)](https://www.comaroptics.com/components/filters) seem to have a good price range. I ordered the following filters to integrate into the [Open Flexturescope](https://github.com/rwb27/openflexure_microscope/issues/43). I ordered the parts in March 2019.
+The filters from [Comar Optics (UK)](https://www.comaroptics.com/components/filters) seem to have a good price range. I ordered the following filters to integrate into the [Open Flexturescope](https://github.com/rwb27/openflexure_microscope/issues/43). I ordered the parts in March 2019 and more January 2020.
 
 Part Nr | Description | Price in GBP
 --- | --- | ---
-488 IH 12 (?) | Interference filter (band width standard, 10nm BW) for 488nm | £73.17
+495 IK 116 | (Excitation filter, Shortpass 495) Dichroic filter, 25 x 16 x 1.1mm | £21.34
+550 IY 125 | (Dichroic beam splitter, Longpass 506) Dichroic filter, 50 x 50 x 1.1mm | £47.19
+510 IY 50 | (Emission filter, Longpass 519) Dichroic filter, 50 x 50 x 1.1mm | £47.19
+--- | --- | ---
+525 IB 25 | Dichroic filter, band pass, 500/550nm, dia 25mm x 1mm | £26.07
 585 AY 25 | Acrylic colour filter, 585nm longpass, 25mm diameter x 1mm | £9.24
-495 IK 116 | Dichroic filter, short pass, 490nm, 25 x 16 x 1.1mm | £21.34
-525 IB 25 | Dichroic filter, band pass, 500/550nm, dia 25mm | £26.07
-40 BA 00 | Plate beamsplitter, standard, visible 50%, 40mm diameter x 3mm | £37.07
+635 IY 125 | Dichroic filter, long pass, 635nm, 40 x 25 x 1.1mm | £38.24
+40 BA 00 | Plate beamsplitter, standard, visible 50%, 40mm diameter x 3mm(thick!) | £37.07
 
 Shipping with Comar Priority Service to Germany - £24.65
+
+The first three filters form a GFP, Fluorescine etc. standard fluorescence set. The later filters can extend the stack to Propidium Iodite (PI) filtering in the yellow fraction of the spectrum.
 
 
 ## fast and sensitive fluorescence detection
@@ -38,7 +43,12 @@ OpenAPD:
 
 http://www.gaudi.ch/GaudiLabs/?page_id=718
 
+Some circuits (e.g. amplification) might be useful from the CosmicPi projekt:
+
+https://github.com/CosmicPi/CosmicPiV1.6PCB
+
 https://ieeexplore.ieee.org/document/5158737
+
 
 ## fast data processing
 And then there is a need for a very fast real-time logical processor chip, which is usually achieved by programming an FPGA chip. This chip will read the signal and make a decision whether or not to activate the droplet sorter. (For example: Positive signal is coming in, intensity and duration (width) is in the right range and there was no other signal too shortly before, so OK, activate the amplifier trigger for the sorting electrode.) FPGAs are usually not exacly user friendly as they are programmed in a bottom-level hardware language. Easy-to-use systems (with integrated top level languages for programming and common measurement-tech interfaces) usually some in a propriatory environment and are very expensive. However, there has been a lot of activity in the respective open source landscape recently.
@@ -66,15 +76,14 @@ http://papilio.cc (more light weight)
 
 Here is an estimate of the specs that are beeing used for high-end droplet sorting:
 
-A voltage of ca. 0.1-3kV (at quasi zero Ampere current) is applied to the electrodes on chip. This depends quite a lot on the electrode geometry and the forces required.
+A voltage of ca. 0.1-3kV (at quasi zero Ampere current) is applied to the electrodes on chip. This depends quite a lot on the electrode geometry and the forces required. Using longer electrodes (Rails etc.) Sub 1kV voltages are sufficient (see "Rational design of a high-throughput droplet sorter" Lab on a Chip 2019, DOI: 10.1039/c9lc00149b https://pubs.rsc.org/en/content/articlelanding/2019/LC/C9LC00149B#!divAbstract)
 
-0.4-3 milisecond (ms) pulses sent to the electrodes on chip (depending on droplet size, speed and electrode shape). This needs to happen with usually no more than a 100us (fast!) delay after detecting the fluorescent signal, as the drops move fast.
+0.4-3 milisecond (ms) pulses sent to the electrodes on chip (depending on droplet size, speed and electrode shape). This needs to happen with usually no more than a 100us delay after detecting the fluorescent signal, as the drops move fast.
 
-The pulse itself is then still alternating current (AC), with a frequency of ca. 100-40kHz frequency (generalisation: the higher the frequency in these limits, the stronger is the force on the droplet).
+The pulse itself is then still alternating current (AC), with a frequency of ca. 0.1-40kHz frequency (generalisation: the higher the frequency in these limits, the stronger is the force on the droplet). Starting value here: 20kHz or higher. *Question: How can this value be smaller or equal the droplet sorting rate?*
 
 Apparently [square wave (DC-DC) pulses are more efficient for dielectrophoresis than AC waves](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=2ahUKEwiIjt2c94HhAhWHZ1AKHfeSCYYQFjABegQIABAC&url=https%3A%2F%2Ftigerprints.clemson.edu%2Fcgi%2Fviewcontent.cgi%3Farticle%3D1016%26context%3Dmecheng_pubs&usg=AOvVaw1J-VG6QFMguafNriVgkh64). This is also what most people in the field (who mention it) seem to use if they can. Generating these signals is not so hard - there are many decent small, open and cheap function generators. This can also easily be done on the same FPGA computer that is already used for data processing.
 
 However, amplification of these pulses is hard and there seem to be only two equipment providers (Trek and Matsusada). The amplifiers are expensive (ca. 5-10 kEuro), large, heavy and energy consuming.
 
 However, since we only need a square wafe signal with stable levels, there seems to be an opportunity to build a switch chip using with voltage power converter units (e.g. APS models from ISEG https://iseg-hv.com/en/products/dc-dc) and voltage tollerant MOSFETs (e.g. https://de.rs-online.com/web/p/mosfet/8016794/).
-
