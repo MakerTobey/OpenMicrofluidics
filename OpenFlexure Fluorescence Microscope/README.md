@@ -9,7 +9,7 @@ And the files (for V6.1.1. with minor further improvements) is available in a su
 In this repository, the design is beeing modified for fluorescence application.
 The official [discussion on a fluorescence version of the OpenFlexure Microscope takes place here](https://gitter.im/OpenFlexureProject/Fluorescence?source=orgpage).
 
-# Fluorescence illumination with bright star-LED
+## Fluorescence illumination with bright star-LED
 
 For strong fluorescnece stimulation, we use a high-power LED solution, based the illumination used here: https://pubs.acs.org/doi/10.1021/acs.analchem.7b04689
 
@@ -44,4 +44,4 @@ Shipping with Comar Priority Service to Germany - £24.65
 
 The first three filters form a GFP, Fluorescine etc. standard fluorescence set. The later filters can extend the stack to Propidium Iodite (PI) filtering in the yellow fraction of the spectrum.
 
-### Related aspects to this projects are beeing discussed on the [Open FADS part of this repository](https://github.com/MakerTobey/OpenMicrofluidics/tree/master/Open%20Fluorescence%20Activated%20Droplet%20Sorting%20(FADS)).
+## Related aspects to this projects are beeing discussed on the [Open FADS part of this repository](https://github.com/MakerTobey/OpenMicrofluidics/tree/master/Open%20Fluorescence%20Activated%20Droplet%20Sorting%20(FADS)).
