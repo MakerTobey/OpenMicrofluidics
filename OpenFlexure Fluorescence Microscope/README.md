@@ -1,14 +1,17 @@
-This is a fork of the [OpenFlexure Microscope](https://github.com/rwb27/openflexure_microscope) pre-release [beta 5.20](https://github.com/rwb27/openflexure_microscope/releases/tag/v5.20.0-b).
-The [corresponding build instructions live here](http://rwb27.github.io/openflexure_microscope/docs/).
-
-In this repository, the design is beeing modified for fluorescence application and additional photosensors for FADS.
-The official [discussion on a fluorescence version of the OpenFlexure Microscope takes place here](https://github.com/rwb27/openflexure_microscope/issues/43).
-Relevant [illumination parts (Kohler illumination, condenser) are discussed here](https://github.com/rwb27/openflexure_microscope/issues/77).
-
 # OpenFlexture Fluorescence Microscope
 ## This build is a fork of the Open Flexture Microscope version 6.0
 
-FOr strong fluorescnece stimulation, we use a high-power LED solution, based the illumination used here: https://pubs.acs.org/doi/10.1021/acs.analchem.7b04689
+This is a fork of the [OpenFlexure Microscope](https://github.com/rwb27/openflexure_microscope) release [beta 6.0](https://gitlab.com/openflexure/openflexure-microscope/-/releases).
+STL files are available at build.openflexure.org/openflexure-microscope/v6.0.0/
+Documentation is available at build.openflexure.org/openflexure-microscope/v6.0.0/docs
+And the files (for V6.1.1. with minor further improvements) is available in a subfolder of this repository, including extra files needed for the epi-fluorescence assembly.
+
+In this repository, the design is beeing modified for fluorescence application.
+The official [discussion on a fluorescence version of the OpenFlexure Microscope takes place here](https://gitter.im/OpenFlexureProject/Fluorescence?source=orgpage).
+
+# Fluorescence illumination with bright star-LED
+
+For strong fluorescnece stimulation, we use a high-power LED solution, based the illumination used here: https://pubs.acs.org/doi/10.1021/acs.analchem.7b04689
 
 We purchased the folloing from Luxeonstar.com (February 2019):
 
