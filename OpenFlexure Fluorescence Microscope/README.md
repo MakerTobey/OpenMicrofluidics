@@ -2,12 +2,15 @@
 ## This build is a fork of the Open Flexture Microscope version 6.0
 
 This is a fork of the [OpenFlexure Microscope](https://github.com/rwb27/openflexure_microscope) release [beta 6.0](https://gitlab.com/openflexure/openflexure-microscope/-/releases).
+
 STL files are available at build.openflexure.org/openflexure-microscope/v6.0.0/
 Documentation is available at build.openflexure.org/openflexure-microscope/v6.0.0/docs
+
 And the files (for V6.1.1. with minor further improvements) is available in a subfolder of this repository, including extra files needed for the epi-fluorescence assembly.
 
 In this repository, the design is beeing modified for fluorescence application.
 The official [discussion on a fluorescence version of the OpenFlexure Microscope takes place here](https://gitter.im/OpenFlexureProject/Fluorescence?source=orgpage).
+
 
 ## Fluorescence illumination with bright star-LED
 
@@ -43,5 +46,6 @@ Part Nr | Description | Price in GBP
 Shipping with Comar Priority Service to Germany - £24.65
 
 The first three filters form a GFP, Fluorescine etc. standard fluorescence set. The later filters can extend the stack to Propidium Iodite (PI) filtering in the yellow fraction of the spectrum.
+
 
 ## Related aspects to this projects are beeing discussed on the [Open FADS part of this repository](https://github.com/MakerTobey/OpenMicrofluidics/tree/master/Open%20Fluorescence%20Activated%20Droplet%20Sorting%20(FADS)).
