@@ -1,6 +1,11 @@
 # Open Fluorescence Activated Droplet Sorting (Open FADS)
 
-FACS (Fluorescence Activated Cell Sorting) equivalent sorting of droplets for directed evolution and many other essays is a key method in microfluidics that only few labs master. One of the reasons is that few instructions are available (but they do exsist! See Christoph Merten in Nature Methods), and equipemnt is complex, propriatory and very expensive. A common work station for droplet sorting usually costs ca. 100.000 Euro. Now, an open source version (no propriatory sorware and harware lock-in, modifiable, modular and extensible) comes within reach! These are the things needed:
+FACS (Fluorescence Activated Cell Sorting) equivalent sorting of droplets for directed evolution and many other essays is a key method in microfluidics that only few labs master. One of the reasons is that few instructions are available (but they do exsist! See Christoph Merten in Nature Methods), and equipemnt is complex, propriatory and very expensive. A common work station for droplet sorting usually costs ca. 100.000 Euro. Now, an open source version (no propriatory sorware and harware lock-in, modifiable, modular and extensible) comes within reach! 
+
+The current focus of this project is the FPGA data processing, which is worked on in this repository: https://github.com/MakerTobey/Open_FPGA_control_for_FADS
+
+
+# These are the things needed for a FADS workstation:
 
 ## light source
 This requires a strong lightsource (laser, most commonly 488nm {for Green Fluorescent Protein (GFP), red RFP and similar}, collimated, small elliptical focal spot, low coherence to avoid speckles) to activate fluorescence. Lasers usually cost several thousand Euro but some cheaper ones are available at slightly different wavelengths https://www.dragonlasers.com/blue-laser-pointers.html. Usually one has to calculate with a few thousand Euro per laser and some additional hundred Euro for the optics (not counting a professional microscope). Here we explore how to keep costs reasonably low while maintaining the quality and specifications of the setup.
@@ -38,6 +43,8 @@ http://www.clifford.at/icestorm/ https://media.ccc.de/v/32c3-7139-a_free_and_ope
 https://hackaday.com/2018/12/13/icebreaker-the-open-source-development-board-for-fpgas/
 
 http://papilio.cc (more light weight)
+
+The processing is currently beeing worked on using the Red Pitaya as a platform. This work is hosted in this seperate repository https://github.com/MakerTobey/Open_FPGA_control_for_FADS
 
 
 ## high voltage AC pulse generation for dielectrophoretic droplet movement
