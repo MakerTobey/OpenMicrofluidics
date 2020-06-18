@@ -62,3 +62,5 @@ Apparently [square wave (DC-DC) pulses are more efficient for dielectrophoresis 
 However, amplification of these pulses is hard and there seem to be only two equipment providers (Trek and Matsusada). The amplifiers are expensive (ca. 5-10 kEuro), large, heavy and energy consuming.
 
 However, since we only need a square wafe signal with stable levels, there seems to be an opportunity to build a switch chip using with voltage power converter units (e.g. APS models from ISEG https://iseg-hv.com/en/products/dc-dc) and voltage tollerant MOSFETs (e.g. https://de.rs-online.com/web/p/mosfet/8016794/).
+
+Recently (Summer 2020) a paper was published (https://advances.sciencemag.org/content/6/22/eaba6712) containing a "booster" design to amplify microfluidic sorting pulses to 2kV at 80kHz (but sine wave only). This design should be considered, along with a switch prototype at EMBL.
