@@ -1,5 +1,6 @@
 # OpenFlexture Fluorescence Microscope
 ## This build is a fork of the Open Flexture Microscope version 6.0
+A transmission + epi-fluorescence microscope version has successfully been build based on it.
 
 This is a fork of the [OpenFlexure Microscope](https://github.com/rwb27/openflexure_microscope) release [beta 6.0](https://gitlab.com/openflexure/openflexure-microscope/-/releases).
 
