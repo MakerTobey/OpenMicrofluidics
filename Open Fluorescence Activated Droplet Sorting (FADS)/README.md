@@ -22,6 +22,8 @@ https://github.com/CosmicPi/CosmicPiV1.6PCB
 
 https://ieeexplore.ieee.org/document/5158737
 
+Here we use a non-open source, but lower noise, more modern, silicon based (does not break as easily) SiPM module from Ketek in Germany.
+
 
 ## fast data processing
 And then there is a need for a very fast real-time logical processor chip, which is usually achieved by programming an FPGA chip. This chip will read the signal and make a decision whether or not to activate the droplet sorter. (For example: Positive signal is coming in, intensity and duration (width) is in the right range and there was no other signal too shortly before, so OK, activate the amplifier trigger for the sorting electrode.) FPGAs are usually not exacly user friendly as they are programmed in a bottom-level hardware language. Easy-to-use systems (with integrated top level languages for programming and common measurement-tech interfaces) usually some in a propriatory environment and are very expensive. However, there has been a lot of activity in the respective open source landscape recently.
@@ -55,7 +57,7 @@ A voltage of ca. 0.1-3kV (at quasi zero Ampere current) is applied to the electr
 
 0.4-3 milisecond (ms) pulses sent to the electrodes on chip (depending on droplet size, speed and electrode shape). This needs to happen with usually no more than a 100us delay after detecting the fluorescent signal, as the drops move fast.
 
-The pulse itself is then still alternating current (AC), with a frequency of ca. 0.1-40kHz frequency (generalisation: the higher the frequency in these limits, the stronger is the force on the droplet). Starting value here: 20kHz or higher. *Question: How can this value be smaller or equal the droplet sorting rate?*
+The pulse itself is then still alternating current (AC), with a frequency of ca. 0.1-80kHz frequency (generalisation: the higher the frequency in these limits, the stronger is the force on the droplet). Starting value for our project: 20kHz or higher. *Question: How can this value be smaller or equal the droplet sorting rate?*
 
 Apparently [square wave (DC-DC) pulses are more efficient for dielectrophoresis than AC waves](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=2ahUKEwiIjt2c94HhAhWHZ1AKHfeSCYYQFjABegQIABAC&url=https%3A%2F%2Ftigerprints.clemson.edu%2Fcgi%2Fviewcontent.cgi%3Farticle%3D1016%26context%3Dmecheng_pubs&usg=AOvVaw1J-VG6QFMguafNriVgkh64). This is also what most people in the field (who mention it) seem to use if they can. Generating these signals is not so hard - there are many decent small, open and cheap function generators. This can also easily be done on the same FPGA computer that is already used for data processing.
 
@@ -63,4 +65,8 @@ However, amplification of these pulses is hard and there seem to be only two equ
 
 However, since we only need a square wafe signal with stable levels, there seems to be an opportunity to build a switch chip using with voltage power converter units (e.g. APS models from ISEG https://iseg-hv.com/en/products/dc-dc) and voltage tollerant MOSFETs (e.g. https://de.rs-online.com/web/p/mosfet/8016794/).
 
-Recently (Summer 2020) a paper was published (https://advances.sciencemag.org/content/6/22/eaba6712) containing a "booster" design to amplify microfluidic sorting pulses to 2kV at 80kHz (but sine wave only). This design should be considered, along with a switch prototype at EMBL.
+Recently (Summer 2020) a paper was published (https://advances.sciencemag.org/content/6/22/eaba6712) containing a "booster" design to amplify microfluidic sorting pulses to 2kV at 80kHz (but sine wave only). 
+A variant of this design was tested and was successfully able to sort 50um droplets (using 50kHz frequenzy - square input, output half-square-half-sine, and ca. 1.3kV). This is a great compact and low-cost alternative to the big electrophoresis amplifyers commonly used for this purpose in the literature.
+
+
+
