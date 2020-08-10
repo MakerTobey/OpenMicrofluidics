@@ -51,7 +51,7 @@ The first three filters form a GFP, Fluorescine etc. standard fluorescence set. 
 
 Jointly with the Biotop community in Heidelberg, we made a first fluorescence microscope version with a blue star LED.
 
-<img src="fluorescence_openflexurescope.png" width=50%> 
+<img src="fluorescence_openflexurescope.jpg" width=100%> 
 
 I used the SunFounder 10.1 Inch Raspberry Pi High-Res Monitor (119,99 € on Amazon.de) and a Rapberri Pi V4 (4GB RAM) to run the microscope and look at the images.
 
