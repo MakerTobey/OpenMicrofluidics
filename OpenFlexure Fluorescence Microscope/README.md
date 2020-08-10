@@ -49,4 +49,8 @@ Shipping with Comar Priority Service to Germany - £24.65
 The first three filters form a GFP, Fluorescine etc. standard fluorescence set. The later filters can extend the stack to Propidium Iodite (PI) filtering in the yellow fraction of the spectrum.
 
 
+Jointly with the Biotop community in Heidelberg, we made a first fluorescence microscope version with a blue star LED.
+
+I used the SunFounder 10.1 Inch Raspberry Pi High-Res Monitor (119,99 € on Amazon.de) and a Rapberri Pi V4 (4GB RAM) to run the microscope and look at the images.
+
 ## Related aspects to this projects are beeing discussed on the [Open FADS part of this repository](https://github.com/MakerTobey/OpenMicrofluidics/tree/master/Open%20Fluorescence%20Activated%20Droplet%20Sorting%20(FADS)).
