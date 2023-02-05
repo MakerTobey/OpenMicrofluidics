@@ -111,6 +111,8 @@ https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2002702
 
 ## Open fast-imaging solutions
 
+Note: in the meanwhile, a sulution has been published: https://www.hardware-x.com/article/S2468-0672(22)00112-2/fulltext. We have also implemented and tested our own modular-but-integrated solution which can be found in our open microfluidics workstation repository: https://github.com/wenzel-lab/open-microfluidics-workstation
+
 No microfluidics related fast imaging open hardware projects are konwn to us so far! Please let me know if you are aware of a resource. Fast-responding cameras would be great or stroboscopic illumination for droplet microfluidics.
 
 I believe that stroboscopic imaging has already been build by many labs. Who would be interested to publish the designs openly?
