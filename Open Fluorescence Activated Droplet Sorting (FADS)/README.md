@@ -69,4 +69,6 @@ Recently (Summer 2020) a paper was published (https://advances.sciencemag.org/co
 A variant of this design was tested and was successfully able to sort 50um droplets (using 50kHz frequenzy - square input, output half-square-half-sine, and ca. 1.3kV). This is a great compact and low-cost alternative to the big electrophoresis amplifyers commonly used for this purpose in the literature.
 
 
+## MRS thread for objective coupling
 
+https://cad.onshape.com/documents/e13576e52de2a4dca37d5abe/w/be82327607e232eebe074e90/e/e5f94c1374d0ac1eb65df4f6?renderMode=0&uiState=63e15775e1f68c2311f80855
