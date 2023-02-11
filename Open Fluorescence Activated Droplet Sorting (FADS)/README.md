@@ -2,8 +2,8 @@
 
 FACS (Fluorescence Activated Cell Sorting) equivalent sorting of droplets for directed evolution and many other essays is a key method in microfluidics that only few labs master. One of the reasons is that few instructions are available (but they do exsist! See Christoph Merten in Nature Methods), and equipemnt is complex, propriatory and very expensive. A common work station for droplet sorting usually costs ca. 100.000 Euro. Now, an open source version (no propriatory sorware and harware lock-in, modifiable, modular and extensible) comes within reach! 
 
-The current focus of this project is the FPGA data processing, which is worked on in this repository: https://github.com/MakerTobey/Open_FPGA_control_for_FADS
-
+The current focus of this project is the FPGA data processing, which is worked on in this repository: https://github.com/MakerTobey/Open_FADS_FPGA_control
+We are now also finalising the optomechanics part of the project here: https://github.com/WenzelLab/Open_FADS_optomechanics
 
 # These are the things needed for a FADS workstation:
 
@@ -46,7 +46,7 @@ https://hackaday.com/2018/12/13/icebreaker-the-open-source-development-board-for
 
 http://papilio.cc (more light weight)
 
-The processing is currently beeing worked on using the Red Pitaya as a platform. This work is hosted in this seperate repository https://github.com/MakerTobey/Open_FPGA_control_for_FADS
+The processing is currently beeing worked on using the Red Pitaya as a platform. This work is hosted in this seperate repository https://github.com/MakerTobey/Open_FADS_FPGA_control
 
 
 ## high voltage AC pulse generation for dielectrophoretic droplet movement
