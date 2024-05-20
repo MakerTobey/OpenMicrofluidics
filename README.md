@@ -1,22 +1,15 @@
+# Note: This repository is no longer expanded, instead, several concrete development projects have come out of it, including
+* [A modular strobe workstation for microfluidic droplet generation](https://wenzel-lab.github.io/strobe-enhanced-microscopy-stage/)
+* [A modular microfluidics flow controller](https://github.com/wenzel-lab/modular-microfluidics-workstation-controller)
+* [RITMOS: Real-tIme Technology for Microfluidic drOplet Sorting](https://github.com/wenzel-lab/droplet-sorter-master/blob/main/README.md)
+* [Syringe pumps optimised for microfluidics](https://librehub.github.io/syringe-pumps-and-controller/)
+* and more
+
 # Free and Open Source Microfluidics Research Hardware
 
 This GitHub repository is an in-progress collection of Open Source Hardware instrumentation for microfluidics and ultra-high troughput lifescience experimentation research. This is a community driven effort and **you are invited to contribute thoughts, content, comments and help testing the instrumentation**! 
 
 This projekt started as part of my Fellowship Freies Wissen (translates to Open Knowledge)2018-2019, here is the [project description on the corresponding Wikiversity page](https://de.wikiversity.org/wiki/Wikiversity:Fellow-Programm_Freies_Wissen/Einreichungen/Open_labware_for_better_life_science). And is beeing further developed as part of my reseach efforts as well as in my free time, togehter with various project partners, such advice and help from Daniel Mietchen, Patrick Hasenfeld, Nicolas Peschke, Biotop Community Heidelberg, the EMBL Workshops (especially Christian Arnold and Alejandro Gil Ortiz), and others.
-
-# Currently, area of active works are:
-A complete, new, modular workstation for microfluidic droplet generation in this repository:
-https://github.com/wenzel-lab/open-microfluidics-workstation
-
-FPGA automation for droplet sorting in this repository: 
-https://github.com/MakerTobey/Open_FADS_FPGA_control
-
-And the corresponding optomechanics:
-https://github.com/wenzel-lab/Open_FADS_optomechanics
-
-And Open Flexure Microscope based Fluorescence microscopy in the sub-directories of this repository (the prototype already exsists, updates online soon): https://github.com/MakerTobey/OpenMicrofluidics/tree/master/Open%20Fluorescence%20Activated%20Droplet%20Sorting%20(FADS)
-https://github.com/MakerTobey/OpenMicrofluidics/tree/master/OpenFlexure%20Fluorescence%20Microscope%20Fluorescence
-
 
 ## The following aim is addressed in this repository:
 
