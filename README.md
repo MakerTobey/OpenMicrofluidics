@@ -2,7 +2,7 @@
 * [A modular strobe workstation for microfluidic droplet generation](https://wenzel-lab.github.io/strobe-enhanced-microscopy-stage/)
 * [A modular microfluidics flow controller](https://github.com/wenzel-lab/modular-microfluidics-workstation-controller)
 * [RITMOS: Real-tIme Technology for Microfluidic drOplet Sorting](https://github.com/wenzel-lab/droplet-sorter-master/blob/main/README.md)
-* [Syringe pumps optimised for microfluidics](https://librehub.github.io/syringe-pumps-and-controller/)
+* [Syringe pumps optimised for microfluidics](https://github.com/wenzel-lab/syringe-pumps-and-controller)
 * and more
 
 # Free and Open Source Microfluidics Research Hardware
