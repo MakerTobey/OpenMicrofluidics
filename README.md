@@ -4,6 +4,7 @@
 * [RITMOS: Real-tIme Technology for Microfluidic drOplet Sorting](https://github.com/wenzel-lab/droplet-sorter-master/blob/main/README.md)
 * [Syringe pumps optimised for microfluidics](https://github.com/wenzel-lab/syringe-pumps-and-controller)
 * and more
+* PLEASE SEE THE [REPOSITORIES OF OUR RESEARCH LABORATORY](https://github.com/orgs/wenzel-lab/repositories)
 
 # Free and Open Source Microfluidics Research Hardware
 
